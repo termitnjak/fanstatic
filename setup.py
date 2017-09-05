@@ -16,9 +16,6 @@ install_requires = [
 if sys.version_info < (2, 7):
     install_requires.append('argparse')
 
-if sys.version_info > (2, 7):
-    install_requires.append('which==1.1.3.py3')
-
 tests_require = [
     'closure',
     'cssmin',
