@@ -10,6 +10,7 @@ long_description = (
 install_requires = [
     'WebOb >= 1.2',
     'setuptools',
+    'shutilwhich',
 ]
 
 if sys.version_info < (2, 7):
